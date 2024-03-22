@@ -3,7 +3,7 @@ package com.manhnd.partition;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.manhnd")
 public class PartitionApplication {
 
 	public static void main(String[] args) {
